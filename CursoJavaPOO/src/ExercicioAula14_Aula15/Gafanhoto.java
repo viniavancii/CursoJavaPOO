@@ -29,18 +29,12 @@ public class Gafanhoto extends Pessoa {
 
 	@Override
 	protected void ganharExp() {
-
 	}
 
-	public void viuMaisUm() {
-
-	}
 
 	@Override
 	public String toString() {
 		return "Gafanhoto " + super.toString() + "login=" + login + ", totAssistido=" + totAssistido;
 	}
-	
-	
 
 }
