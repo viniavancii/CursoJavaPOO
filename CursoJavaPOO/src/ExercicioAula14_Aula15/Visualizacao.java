@@ -40,7 +40,7 @@ public class Visualizacao {
 		this.filme.setAvaliacao(nota);
 	}
 
-	public void avaliar(float porcentagem) {
+	public void avaliar(float porcentagem) { // Calcular a média
 		int total = 0;
 		if (porcentagem <= 20) {
 			total = 3;
