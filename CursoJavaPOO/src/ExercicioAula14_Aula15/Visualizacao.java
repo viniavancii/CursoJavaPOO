@@ -9,6 +9,7 @@ public class Visualizacao {
 		this.filme = filme;
 		this.espectador.setTotAssistido(this.espectador.getTotAssistido() + 1);
 		this.filme.setViews(this.filme.getViews() + 1);
+		this.filme.setReproduzindo(true);
 	}
 
 	public Gafanhoto getEspectador() {
